@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my class</title>
+    <link rel="stylesheet" href="evo-calendar.min.css">
+    <link rel="stylesheet" href="evo-calendar.midnight-blue.min.css">
+    <link rel="stylesheet" href="style/calendar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="shortcut icon" href="ineges/Designer.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="hero">
+        <div id="calendar"></div>
+    </header>
+    <main>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+        <script src="evo-calendar.min.js"></script>
+    <script>
+        $(document).ready(function() {
+    $('#calendar').evoCalendar({
+        theme: "Midnight Blue",
+        calendarEvents: [
+      {
+        id: 'bHay68s', // Event's ID (required)
+        name: "Happy New Year", // Event name (required)
+        date: "January/1/2024", // Event date (required)
+        description: "",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-1', // Event's ID (required)
+        name: "html", // Event name (required)
+        date: "Nov/1/2024", // Event date (required)
+        description: "1-1 [HTML]: Explore VSCode and what is HTML",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-2', // Event's ID (required)
+        name: "paragraphs", // Event name (required)
+        date: "Nov/2/2024", // Event date (required)
+        description: "<xmp><p></p></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-2', // Event's ID (required)
+        name: "bold", // Event name (required)
+        date: "Nov/2/2024", // Event date (required)
+        description: "<xmp><b></b></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-2', // Event's ID (required)
+        name: "menaigful bold", // Event name (required)
+        date: "Nov/2/2024", // Event date (required)
+        description: "<xmp><strong></strong></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-2', // Event's ID (required)
+        name: "italic", // Event name (required)
+        date: "Nov/2/2024", // Event date (required)
+        description: "<xmp><i></i></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-2', // Event's ID (required)
+        name: "menaigful italic", // Event name (required)
+        date: "Nov/2/2024", // Event date (required)
+        description: "<xmp><em></em></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-3', // Event's ID (required)
+        name: "heading", // Event name (required)
+        date: "Nov/3/2024", // Event date (required)
+        description: "<xmp><h1></h1> / <h6></h6></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-3', // Event's ID (required)
+        name: "small", // Event name (required)
+        date: "Nov/3/2024", // Event date (required)
+        description: "<xmp><small></small></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-3', // Event's ID (required)
+        name: "inline", // Event name (required)
+        date: "Nov/3/2024", // Event date (required)
+        description: "strong,em,i,small,span",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-3', // Event's ID (required)
+        name: "block", // Event name (required)
+        date: "Nov/3/2024", // Event date (required)
+        description: "p,h1,div",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-4', // Event's ID (required)
+        name: "listitem", // Event name (required)
+        date: "Nov/4/2024", // Event date (required)
+        description: "<xmp><li></li></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-4', // Event's ID (required)
+        name: "unordered list", // Event name (required)
+        date: "Nov/4/2024", // Event date (required)
+        description: "<xmp><ul></ul></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-4', // Event's ID (required)
+        name: "container tag", // Event name (required)
+        date: "Nov/4/2024", // Event date (required)
+        description: "ul,ol,div",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-4', // Event's ID (required)
+        name: "ordered list", // Event name (required)
+        date: "Nov/4/2024", // Event date (required)
+        description: "<xmp><ol></ol></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-4', // Event's ID (required)
+        name: "lorem", // Event name (required)
+        date: "Nov/4/2024", // Event date (required)
+        description: "on mining tex",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-4', // Event's ID (required)
+        name: "lin brack", // Event name (required)
+        date: "Nov/4/2024", // Event date (required)
+        description: "<xmp><br></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-4', // Event's ID (required)
+        name: "button", // Event name (required)
+        date: "Nov/4/2024", // Event date (required)
+        description: "<xmp><button></button></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-5', // Event's ID (required)
+        name: "anchar", // Event name (required)
+        date: "Nov/5/2024", // Event date (required)
+        description: "<xmp><a href='google link'>google</a> </xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-6', // Event's ID (required)
+        name: "image", // Event name (required)
+        date: "Nov/6/2024", // Event date (required)
+        description: "<xmp><img src='image link' alt='image name'></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-7', // Event's ID (required)
+        name: "input tag", // Event name (required)
+        date: "Nov/7/2024", // Event date (required)
+        description: "<xmp><input type='text'></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-7', // Event's ID (required)
+        name: "input tag", // Event name (required)
+        date: "Nov/7/2024", // Event date (required)
+        description: "<xmp><input type='password'></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-7', // Event's ID (required)
+        name: "input tag", // Event name (required)
+        date: "Nov/7/2024", // Event date (required)
+        description: "<xmp><input type='checkbox' name=''' id='''></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-7', // Event's ID (required)
+        name: "input tag", // Event name (required)
+        date: "Nov/7/2024", // Event date (required)
+        description: "<xmp><input type='date' name='' id=''></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-7', // Event's ID (required)
+        name: "input tag", // Event name (required)
+        date: "Nov/7/2024", // Event date (required)
+        description: "<xmp><input type='email' name='' id=''></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-7', // Event's ID (required)
+        name: "input tag", // Event name (required)
+        date: "Nov/7/2024", // Event date (required)
+        description: "<xmp> <input type='file' name='' id=''></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-7', // Event's ID (required)
+        name: "input tag", // Event name (required)
+        date: "Nov/7/2024", // Event date (required)
+        description: "<xmp><input type='submit' value=''></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-7', // Event's ID (required)
+        name: "input tag", // Event name (required)
+        date: "Nov/7/2024", // Event date (required)
+        description: "<xmp><input type='image' src='' alt=''></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-7', // Event's ID (required)
+        name: "select tag", // Event name (required)
+        date: "Nov/7/2024", // Event date (required)
+        description: "<xmp><select name='' id=''></select></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-7', // Event's ID (required)
+        name: "option tag", // Event name (required)
+        date: "Nov/7/2024", // Event date (required)
+        description: "<xmp><option value=''></option></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-8', // Event's ID (required)
+        name: "add favicon", // Event name (required)
+        date: "Nov/8/2024", // Event date (required)
+        description: "<xmp><link rel='shortcut icon' href='favicon.ico' type='image/x-icon'></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-9', // Event's ID (required)
+        name: "in line style", // Event name (required)
+        date: "Nov/9/2024", // Event date (required)
+        description: "<xmp> style=''</xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-9', // Event's ID (required)
+        name: "internal style", // Event name (required)
+        date: "Nov/9/2024", // Event date (required)
+        description: "<xmp><style></style></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-10', // Event's ID (required)
+        name: "id selector", // Event name (required)
+        date: "Nov/10/2024", // Event date (required)
+        description: "<xmp>id='name'</xmp> # name{apply style}",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-10', // Event's ID (required)
+        name: "class selector", // Event name (required)
+        date: "Nov/10/2024", // Event date (required)
+        description: "<xmp>class='name'</xmp> . name{apply style}",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-10', // Event's ID (required)
+        name: "universal selector", // Event name (required)
+        date: "Nov/10/2024", // Event date (required)
+        description: "<xmp>*{}</xmp> *{apply style}",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-10', // Event's ID (required)
+        name: "element selector", // Event name (required)
+        date: "Nov/10/2024", // Event date (required)
+        description: "<xmp>h1,p,div,strong,spam = all tag</xmp>h1{apply style}",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-10', // Event's ID (required)
+        name: "grouping stelector", // Event name (required)
+        date: "Nov/10/2024", // Event date (required)
+        description: "<xmp>h5,p,div,strong,spam = all tag</xmp>h5,div{apply style}",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-10', // Event's ID (required)
+        name: "attribute selector", // Event name (required)
+        date: "Nov/10/2024", // Event date (required)
+        description: "<xmp>[tipe='password']</xmp> apply tag under",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-11', // Event's ID (required)
+        name: "coment", // Event name (required)
+        date: "Nov/11/2024", // Event date (required)
+        description: "<xmp>ctrl+/</xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-11', // Event's ID (required)
+        name: "span", // Event name (required)
+        date: "Nov/11/2024", // Event date (required)
+        description: "<xmp><span</span></xmp> yous style short tex",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-12', // Event's ID (required)
+        name: "border", // Event name (required)
+        date: "Nov/12/2024", // Event date (required)
+        description: "<xmp>border:px,%+solid+</xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-12', // Event's ID (required)
+        name: "rudius", // Event name (required)
+        date: "Nov/12/2024", // Event date (required)
+        description: "<xmp>rudius:px</xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-12', // Event's ID (required)
+        name: "margin", // Event name (required)
+        date: "Nov/12/2024", // Event date (required)
+        description: "<xmp>argin:px</xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-13', // Event's ID (required)
+        name: "box model", // Event name (required)
+        date: "Nov/13/2024", // Event date (required)
+        description: "<xmp>margin,border,Padding,content,height,width</xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-14', // Event's ID (required)
+        name: "link:css", // Event name (required)
+        date: "Nov/14/2024", // Event date (required)
+        description: "<xmp><link rel='stylesheet' href='style/name.css'></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-14', // Event's ID (required)
+        name: "text-decoration", // Event name (required)
+        date: "Nov/14/2024", // Event date (required)
+        description: "<xmp>text-decoration: overline;</xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-14', // Event's ID (required)
+        name: "display", // Event name (required)
+        date: "Nov/14/2024", // Event date (required)
+        description: "<xmp>display: non, block, inline-block</xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-14', // Event's ID (required)
+        name: "visibility", // Event name (required)
+        date: "Nov/14/2024", // Event date (required)
+        description: "<xmp>visibility: hidden</xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-14', // Event's ID (required)
+        name: "bok", // Event name (required)
+        date: "Nov/14/2024", // Event date (required)
+        description: "<xmp>box-shadow: px </xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-14', // Event's ID (required)
+        name: "font", // Event name (required)
+        date: "Nov/14/2024", // Event date (required)
+        description: "<xmp>font family</xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-15', // Event's ID (required)
+        name: "background", // Event name (required)
+        date: "Nov/15/2024", // Event date (required)
+        description: "<xmp>background-color:color name, cod</xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-15', // Event's ID (required)
+        name: "background", // Event name (required)
+        date: "Nov/15/2024", // Event date (required)
+        description: "<xmp>background-image: uri('image name')</xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-15', // Event's ID (required)
+        name: "background", // Event name (required)
+        date: "Nov/15/2024", // Event date (required)
+        description: "<xmp>background-image: uri('../')</xmp>image folder pu and dun",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-15', // Event's ID (required)
+        name: "background", // Event name (required)
+        date: "Nov/15/2024", // Event date (required)
+        description: "<xmp>background-repeat: non</xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-16', // Event's ID (required)
+        name: "git hub", // Event name (required)
+        date: "Nov/16/2024", // Event date (required)
+        description: "<xmp>git init</xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-16', // Event's ID (required)
+        name: "git hub", // Event name (required)
+        date: "Nov/16/2024", // Event date (required)
+        description: "<xmp>git add .</xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-16', // Event's ID (required)
+        name: "git hub", // Event name (required)
+        date: "Nov/16/2024", // Event date (required)
+        description: "<xmp>git commit -m 'first commit'</xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-16', // Event's ID (required)
+        name: "git hub", // Event name (required)
+        date: "Nov/16/2024", // Event date (required)
+        description: "<xmp>git branch -M main</xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-16', // Event's ID (required)
+        name: "git hub", // Event name (required)
+        date: "Nov/16/2024", // Event date (required)
+        description: "<xmp>git remote add origin https://github.com/NmN-007/yuejks-haja.git</xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-16', // Event's ID (required)
+        name: "git hub", // Event name (required)
+        date: "Nov/16/2024", // Event date (required)
+        description: "<xmp>git push -u origin main</xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      
+      {
+        id: 'day-17', // Event's ID (required)
+        name: "git hub", // Event name (required)
+        date: "Nov/17/2024", // Event date (required)
+        description: "<xmp>git add .</xmp>nex tim",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-17', // Event's ID (required)
+        name: "git hub", // Event name (required)
+        date: "Nov/17/2024", // Event date (required)
+        description: "<xmp>git commit -m'new commit' </xmp>nex tim",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-17', // Event's ID (required)
+        name: "git hub", // Event name (required)
+        date: "Nov/17/2024", // Event date (required)
+        description: "<xmp>git push</xmp>nex tim",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-18', // Event's ID (required)
+        name: "audio", // Event name (required)
+        date: "Nov/18/2024", // Event date (required)
+        description: "<xmp><audio src=''></audio></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-18', // Event's ID (required)
+        name: "controls" , // Event name (required)
+        date: "Nov/18/2024", // Event date (required)
+        description: "<xmp><xmp><audio controls src=''></audio></xmp></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-18', // Event's ID (required)
+        name: "video", // Event name (required)
+        date: "Nov/18/2024", // Event date (required)
+        description: "<xmp><video src=''></video></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-19', // Event's ID (required)
+        name: " explore html 5", // Event name (required)
+        date: "Nov/19/2024", // Event date (required)
+        description: "<xmp>header,nav,main,section,article,time,footer</xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-18', // Event's ID (required)
+        name: "youtube video", // Event name (required)
+        date: "Nov/18/2024", // Event date (required)
+        description: "<xmp><iframe width='560' height='315' src='https://www.youtube.com/embed/q8TTdhoxWm8?si=ZanPKrnUuzDZrKZR' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'day-18', // Event's ID (required)
+        name: "embed iframe", // Event name (required)
+        date: "Nov/18/2024", // Event date (required)
+        description: "<xmp><iframe src='' frameborder='0'></iframe></xmp>",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        name: "Vacation Leave",
+        badge: "02/13 - 02/15", // Event badge (optional)
+        date: ["February/13/2020", "February/15/2020"], // Date range
+        description: "Vacation leave for 3 days.", // Event description (optional)
+        type: "event",
+        color: "#63d867" // Event custom color (optional)
+      }
+    ]
+    })
+})
+    </script>
+    </main>  
+    <footer>
+        
+        
+        
+        
+        
+       
+        
+        
+        
+        
+    </footer>
+</body>
+</html>
