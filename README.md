@@ -29,4 +29,4 @@
 
 <p><img align="left" width="390"src="https://github-readme-stats.vercel.app/api/top-langs?username=nmn-007&show_icons=true&locale=en&layout=compact" alt="nmn-007" /></p>
 <p><img align="right" width="350" src="https://github-readme-stats.vercel.app/api?username=nmn-007&show_icons=true&locale=en" alt="nmn-007" /></p>
-<p><img align="left" width="470" src="https://github-readme-streak-stats.herokuapp.com/?user=nmn-007&" alt="nmn-007" /></p> 
+<p><img align="left" width="1010" src="https://github-readme-streak-stats.herokuapp.com/?user=nmn-007&" alt="nmn-007" /></p> 
