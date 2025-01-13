@@ -5,8 +5,8 @@
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=5000&lines=💕+Hi+There!+👋;+I'Am+Neaz+Mahmud+💕" />
 </h1>
 <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=23&center=true&vCenter=true&width=900&height=90&duration=10000&lines=I+Am+A+Perfect+Web+Developer+And+Graphic+Design+Is+My+Hobby" />
-</h1>                                                                                          
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=23&center=true&vCenter=true&width=900&height=90&duration=10000&lines=I+Am+A+Specialist+Web+Developer+And+Graphic+Design+Is+My+Hobby" />
+</h1>      
 
                                                                                                
 <img align="right" width="100%" src="Untitled design.gif">  
@@ -41,6 +41,6 @@
 
 <p><img align="left" width="100%"src="https://github-readme-stats.vercel.app/api/top-langs?username=nmn-007&show_icons=true&locale=en&layout=compact" alt="nmn-007" /></p>
 <p><img align="right" width="100%" src="https://github-readme-stats.vercel.app/api?username=nmn-007&show_icons=true&locale=en" alt="nmn-007" /></p>
-<p><img align="left" width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=nmn-007&" alt="nmn-007" /></p> 
+<p><img align="left" width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=nmn-007&"alt="nmn-007"/></p> 
 
 
