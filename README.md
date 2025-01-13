@@ -2,10 +2,10 @@
 ![logo](https://github.com/NmN-007/my-new-pepo/blob/main/Green%20and%20Black%20Modern%20Gamer%20YouTube%20Banner.png)
 
 <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=5000&lines=💕+Hi+There!+👋;+I'Ma+Neaz+Mahmud+💕" />
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=5000&lines=💕+Hi+There!+👋;+I'Am+Neaz+Mahmud+💕" />
 </h1>
 <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=23&center=true&vCenter=true&width=900&height=90&duration=10000&lines=I+Ma+A+Perfect+Wap+Developer+And+Graphic+Design+Is+My+Hobby" />
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=23&center=true&vCenter=true&width=900&height=90&duration=10000&lines=I+Am+A+Perfect+Web+Developer+And+Graphic+Design+Is+My+Hobby" />
 </h1>                                                                                          
 
                                                                                                
